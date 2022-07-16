@@ -1,0 +1,46 @@
+html {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1,h2,h3,h4 {
+    font-weight: bold;
+    color:  rgb(48, 231, 12);
+}
+
+.heading {
+    font-size: 52px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.heading,
+.recipe-title {
+    text-align: center;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    width: 375;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(48, 231, 12);
+    font-size: large;
+}
+
+.content {
+    gap: 40px;
+    display: flex;
+}
+
+div img{
+    width: auto;
+    height: 400px;
+    
+}
+
+body {
+    background-color: black;
+}
