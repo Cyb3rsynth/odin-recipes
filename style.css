@@ -5,6 +5,7 @@ html {
 h1,h2,h3,h4 {
     font-weight: bold;
     color:  rgb(48, 231, 12);
+    text-decoration: underline;
 }
 
 .heading {
@@ -43,4 +44,12 @@ div img{
 
 body {
     background-color: black;
+}
+
+#footer {
+    bottom: 0%;
+    position: absolute;
+    left: 0%;
+    color: rgb(48, 231, 12);
+    font-weight: bold;
 }
